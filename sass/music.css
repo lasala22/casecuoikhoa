@@ -148,4 +148,33 @@ footer sup {
   padding-top: 5rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pay-option {
+    margin-left: -15rem;
+  }
+  .pay-option table {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 484px) {
+  .song audio {
+    width: 20%;
+  }
+
+  .details {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 714px) {
+  .no-wifi-text {
+    padding-right: 0rem;
+    padding-left: 2rem;
+  }
+}
+
 /*# sourceMappingURL=music.css.map */

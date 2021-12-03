@@ -93,8 +93,10 @@ header a {
   font-weight: bold;
 }
 .section-4 .pay-option {
-  padding-left: 15rem;
   padding-top: 5rem;
+}
+.section-4 .pay-option table {
+  margin-left: 15rem;
 }
 
 td {
@@ -136,7 +138,25 @@ footer sup {
 }
 @media screen and (max-width: 1000px) {
   .pay-option {
-    padding-left: 0rem;
+    margin-left: -15rem;
+  }
+  .pay-option table {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 484px) {
+  .song audio {
+    width: 20%;
+  }
+
+  .details {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 714px) {
+  .no-wifi-text {
+    padding-right: 0rem;
+    padding-left: 2rem;
   }
 }
 

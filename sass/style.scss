@@ -95,8 +95,10 @@ header a {
         font-weight: bold;
     }
     .pay-option {
-        padding-left: 15rem;
         padding-top: 5rem;
+        table {
+            margin-left: 15rem;
+        }
     }    
 }
 
