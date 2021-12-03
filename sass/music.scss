@@ -1,0 +1,148 @@
+section {
+    background-color: black;
+}
+
+.side-bar {
+    background-color: black;
+    padding: 2rem 0;
+    height: 100%;
+    a {
+        text-decoration: none;
+        color: green;
+    }
+}
+li {
+    list-style-type: none;
+    margin-top: 3rem;
+}
+hr {
+    background-color: green;
+    width: 70%;
+}
+.install {
+    margin-left: 2rem;
+    h6 {
+        margin-top: 3rem;
+    }
+}
+
+
+
+//end sidebar
+.album-dt {
+    background-color: rgb(110, 108, 108);
+}
+.photo-art {
+    margin-top: 5rem;
+    img {
+        width: 70%;
+        margin-bottom: 2rem;
+        border-radius: 50%;
+        position: relative;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+    }
+    @keyframes example  {
+        0% {
+            transform: rotate(360deg);
+        }
+    }
+}
+.details {
+    margin-top: 9rem;
+    margin-left: -5rem;
+    color: honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    .detail {
+        img {
+            width: 5%;
+            border-radius: 50%;
+            margin-left: 1rem;
+        }
+        a {
+            color: honeydew;
+            padding-top: 1rem;
+        }
+        p {
+            padding-top: 1rem;
+            color: gainsboro;
+        }
+    }
+    h1 {
+        text-transform: uppercase;
+    }
+}
+//end album-dt
+.playlist {
+    background-color: rgb(66, 66, 66);
+    margin-left: -0.95rem;
+    margin-right: -0.95rem;
+}
+
+.icon {
+    margin-left: 2rem;
+    a {
+        color:red;
+    }
+}
+.songs {
+    h5 {
+        margin-left: 2rem;
+        color: white;
+    }
+}
+.song {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+    h6 {
+        margin-right: 1rem;
+        color:red;
+    }
+    audio {
+        width: 50%;
+        position: absolute;
+        left: 15rem;
+    }
+}
+
+.more-playlist {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    a {
+        color: white;
+    }
+    img {
+        width: 50%;
+    }
+}
+
+footer {
+    background-color: black;
+    a {
+        color: white;
+        text-decoration: none;
+        h6 {
+            color: #cdf564;
+        }
+        i {
+            padding-left: 8rem;
+        }
+    }
+    i {
+        padding-left: 2rem;
+        color: white;
+    }
+    a:hover {
+        color: green
+    }
+    sup {
+        color: white;
+    }
+}
+.footer-content {
+    padding-top: 5rem;
+}

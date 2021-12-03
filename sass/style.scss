@@ -1,0 +1,134 @@
+
+
+
+header {
+    background-color: black;
+}
+
+header a {
+    color: white;
+}
+.navbar-brand {
+    padding-left: 8rem;
+}
+.nav-item:last-child {
+    padding-right: 10rem;
+}
+.nav-item {
+    padding: 0.9rem;
+}
+.nav-link:hover, .navbar-brand:hover {
+    color: green;
+}
+header a {
+    font-size: 0.9em;
+}
+// end header
+
+.section-1 {
+    padding: 5rem;
+    background-color: #cdf564;
+    h1, h4, .pre-mini{
+        padding-bottom: 2rem;
+    }
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+    .pre-mini {
+        .btn-dark, .btn-light {
+            border-radius: 30px;
+            font-weight: bold;
+        }
+    }
+    
+}
+// end section-1
+
+.section-2 {
+    padding: 5rem;
+}
+.no-ads-text {
+    padding: 4rem;
+    h1 {
+        font-weight: bold;
+    }
+    h4 {
+        padding-top: 1rem;
+    }
+}
+.no-ads-image {
+    img {
+        width: 30%;
+    }
+}
+// end section-2
+
+.section-3 {
+    background-color: #b49bc8;
+    padding-top: 1rem;
+}
+.no-wifi-image {
+    padding-left: 3rem;
+    .phone-image {
+        position: relative;
+    }
+    h5 {
+        position: absolute;
+        top: 6rem;
+        left: 6rem;
+        color: white;
+    }
+}
+.no-wifi-text {
+    padding: 7rem 7rem 0 0;
+    font-weight: bold;
+}
+// end section-3
+
+.section-4 {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: grey;
+    position: relative;
+    h1 {
+        font-weight: bold;
+    }
+    .pay-option {
+        padding-left: 15rem;
+        padding-top: 5rem;
+    }    
+}
+
+td {
+    border-right: 1px solid;
+}
+// end section-4
+footer {
+    background-color: black;
+    a {
+        color: white;
+        text-decoration: none;
+        h6 {
+            color: #cdf564;
+        }
+        i {
+            padding-left: 8rem;
+        }
+    }
+    i {
+        padding-left: 2rem;
+        color: white;
+    }
+    a:hover {
+        color: green
+    }
+    sup {
+        color: white;
+    }
+}
+.footer-content {
+    padding-top: 5rem;
+}
+
+@import 'responsive';
